@@ -1,0 +1,52 @@
+$top-menu-color: #231F20;
+
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+.top-menu {
+  height: 80px;
+  background-color: $top-menu-color;
+  width: 100%;
+
+  .social-media-icons {
+    margin-top: 25px;
+    float: right;
+    margin-right: 60px;
+
+    img {
+      width: 30px;
+      height: 30px;
+      padding-left: 25px;
+    }
+  }
+}
+
+.gornik-background {
+  width: 100%;
+  height: 1000px;
+  background-image: url('./gornik.jpg');
+  background-size: contain;
+  background-position:center;
+  background-repeat: no-repeat;
+
+  .titles {
+    padding-top: 380px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Times New Roman";
+    text-align: center;
+    color: white;
+
+    .title {
+      font-size: 108px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+}
